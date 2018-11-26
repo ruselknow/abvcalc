@@ -18,6 +18,8 @@
   "homepage": "https://github.com/ruselknow/abvcalc#readme",
   "dependencies": {
     "browserify": "^16.2.3",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
     "watchify": "^3.11.0"
   },
   "devDependencies": {
