@@ -1,0 +1,107 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Comfortaa', cursive;
+    height: 100%;
+    display: grid;
+    color: #212227;
+}
+
+input {
+    font-family: 'Comfortaa', cursive;
+    text-align: center; 
+}
+.container {
+  width: 320px;
+  margin: auto;
+}
+
+.button,
+.textfield {
+  border-radius: 0px;
+  border: 0;
+  font-size: 2rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.textfield {
+  background-color: #e8e8e8;
+  border: 0;
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+
+.label {
+  color: #72777c;
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.title,
+.result-value {
+    border-top: 4px solid #e8e8e8;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    border-top: 0;
+    border-bottom: 4px solid #e8e8e8;
+}
+
+
+.button-wrap {
+    text-align: center;
+    margin-top: -2.5em;
+}
+
+.button-label {
+    display: inline-block;
+    padding: 1em 0.5em;
+    margin: 0.5em;
+    cursor: pointer;
+    color: #72777c;
+    background: #e8e8e8;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.button-label:hover {
+    background: #96BE84;
+    color: #FCFCFC;
+}
+
+.button-label:active {
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+}
+
+.radio-label:checked + .button-label {
+    background: #7FB069;
+    color: #efefef;
+}
+
+.radio-label:checked + .button-label:hover {
+    background: #96BE84;
+    color: #FCFCFC;
+}
+
+.hidden {
+    display: none;
+}
