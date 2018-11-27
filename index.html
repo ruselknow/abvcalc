@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>ABV Calculator</title>
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+      <link rel="stylesheet" href="css/main.css"/>  
+      <script type="text/javascript" src="dist/bundle.js"></script>
+   </head>
+   <body>
+      <h1 class="title">abv calculator</h1>
+      <div class="container">
+      <form id="form">
+         <div class="row">
+            <div class="button-wrap">
+                  <input class="hidden radio-label " type="radio" name="units" id="platoiUnit" checked="checked"/>
+                  <label class="button-label" for="platoiUnit">Plato °P</label>
+                  <input class="hidden radio-label" type="radio" name="units" id="sgUnit"/>
+                  <label class="button-label" for="sgUnit">SG (1.xxx)</label>
+            </div>
+         </div>
+
+         <div class="row">
+            <label for="originalGravity" class="label">original gravity</label>
+            <input id="originalGravity" class="textfield" type="number" placeholder="°P" />
+         </div>
+         
+         <div class="row">
+            <label for="finalGravity" class="label">final gravity</label>
+            <input id="finalGravity" class="textfield" type="number" placeholder="°P">
+         </div> 
+      </form>
+      </div>
+      <h2 class="result-value"><span id="result">0</span>%</h2>
+   </body>
+</html>
